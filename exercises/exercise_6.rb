@@ -9,3 +9,11 @@ puts "Exercise 6"
 puts "----------"
 
 # Your code goes here ...
+
+@store1.employees.create(first_name: "Bilbo", last_name: "Baggins", hourly_rate: 60)
+@store1.employees.create(first_name: "Samwise", last_name: "Gamgee", hourly_rate: 35)
+@store2.employees.create(first_name: "Merry", last_name: "Brandybuck", hourly_rate: 44)
+@store2.employees.create(first_name: "Pippin", last_name: "Took", hourly_rate: 50)
+
+
+# puts "There are #{@employees.all.count} stores in the DB."
